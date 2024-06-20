@@ -1,10 +1,9 @@
 package eu.tutorials.kotlinbasics
 
 fun main() {
-    var age = 35
+    makeCoffee(1)
+}
 
-    var enteredValue = readln()
-    age = enteredValue.toInt()
-
-    println(age)
+fun makeCoffee(sugarCount: Int) {
+    println("Coffee with $sugarCount spoons of sugar")
 }
