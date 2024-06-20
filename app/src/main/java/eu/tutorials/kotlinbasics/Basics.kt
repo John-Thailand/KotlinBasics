@@ -1,6 +1,6 @@
 package eu.tutorials.kotlinbasics
 
 fun main() {
-    val pi = 3.14f
-    println(pi)
+    var age: UShort = 35u
+    println(age)
 }
