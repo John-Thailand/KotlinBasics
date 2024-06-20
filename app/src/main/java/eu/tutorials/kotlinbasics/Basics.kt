@@ -1,5 +1,6 @@
 package eu.tutorials.kotlinbasics
 
 fun main() {
-    println("Hello World!")
+    val pi = 3.14f
+    println(pi)
 }
