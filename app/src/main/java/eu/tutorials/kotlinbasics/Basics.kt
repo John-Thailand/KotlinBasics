@@ -1,7 +1,11 @@
 package eu.tutorials.kotlinbasics
 
 fun main() {
-    var daisy = Dog("Daisy", "Dwarf poodle")
+    // val shoppingList = listOf("Processor", "RAM", "Graphics Card")
+    val shoppingList = mutableListOf("Processor", "RAM", "Graphics Card")
 
-    println(daisy.breed)
+    shoppingList.add("Memory")
+    shoppingList.remove("Processor")
+
+    println(shoppingList)
 }
