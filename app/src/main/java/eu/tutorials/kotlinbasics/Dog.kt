@@ -1,11 +1,11 @@
 package eu.tutorials.kotlinbasics
 
-class Dog {
+class Dog (val name: String, val breed: String) {
     init {
         bark()
     }
 
     fun bark() {
-        println("Woof Woof")
+        println("$name Woof Woof")
     }
 }
