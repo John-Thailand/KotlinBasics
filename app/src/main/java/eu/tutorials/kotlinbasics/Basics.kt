@@ -1,7 +1,13 @@
 package eu.tutorials.kotlinbasics
 
 fun main() {
-    makeCoffee(1)
+    var myResult = add(5, 10)
+    println(myResult)
+}
+
+fun add(num1: Int, num2: Int): Int {
+    val result = num1 + num2
+    return result
 }
 
 fun makeCoffee(sugarCount: Int) {
