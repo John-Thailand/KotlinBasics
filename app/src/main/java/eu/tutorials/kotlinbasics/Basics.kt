@@ -1,6 +1,10 @@
 package eu.tutorials.kotlinbasics
 
 fun main() {
-    var age: UShort = 35u
+    var age = 35
+
+    var enteredValue = readln()
+    age = enteredValue.toInt()
+
     println(age)
 }
